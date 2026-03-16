@@ -2,6 +2,195 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* FONT */
-body {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
   font-family: "Work Sans", sans-serif;
+  background-color: #33cccc;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  height: 17vh;
+  text-align: center;
+  padding: 16px;
+}
+/* # for id, . for class */
+.logo{
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.nav-links{
+  list-style: none;
+  font-size: 24px;
+}
+
+.nav-links li{
+  display: inline-block;
+  margin: 0 16px; /*two value stand for top and bottom, left and right*/
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+#profile{
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.profile-picture-box{
+  height: 400px;
+  padding: 0;
+}
+
+p{
+  color: rgb(66,66,65);
+}
+
+.profile-text-box{
+  margin-top: 16px;
+}
+
+.profile-text-box{
+  font-weight: 600;
+}
+
+.main-heading{
+  font-size: 48px;
+  text-align: center;
+}
+
+.subtitle-text{
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.btn{
+  display: inline-block;
+  font-weight: 600;
+  padding: 16px;
+  width: 128px;
+  border-radius: 32px;
+  border: gray 2px solid;
+  background-color: transparent;
+  margin: 0 8px;
+}
+
+button{
+  background: none;
+  border: none;
+}
+
+.button-outline:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button-solid:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+#about{
+  margin-bottom: 64px;
+  
+}
+
+.about-text-box{
+  margin-top: 15px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.experience-box{
+  padding: 24px;
+  border-radius: 32px;
+  border: rgb(0, 0, 0) 2px solid;
+  margin-bottom: 32px;
+}
+
+section{
+  padding-top: 4vh;
+  margin: 0 160px;
+}
+
+.box-title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.experience-list{
+  padding-left: 20px;
+  color: rgb(64, 63, 63);
+}
+
+.experience-list li{
+  margin-bottom: 16px;
+}
+
+
+
+
+.projects-wrapper{
+  margin-top: 32px;
+}
+
+.project-card{
+  padding: 24px;
+  text-align: center;
+  border-radius: 32px;
+  border: rgb(0, 0, 0) 2px solid;
+  margin-bottom: 32px;
+}
+
+.project-title{
+  margin: 16px;
+}
+
+.project-image{
+  border-radius: 32px;
+  max-width: 400px;
+}
+
+.project-card .button-container {
+    margin-top: 20px; 
+}
+
+#contact {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.contact-card-wrapper {
+  border-radius: 32px;
+  border: rgb(27, 22, 22) 2px solid;
+  margin: 32px auto;
+  padding: 24px;
+  width: fit-content;
+}
+
+.contact-item {
+  margin: 16px;
+}
+
+.contact-item p {
+  font-size: larger;
+  display: inline-block;
+  vertical-align: middle;
 }
